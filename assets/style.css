@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    background-color: rgb(193, 188, 183);
+    width: 100%;
+    background: linear-gradient( orange, black);
+    background-image: url("https://images.unsplash.com/photo-1507680465142-ef2223e23308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGlzYXN0ZXJ8ZW58MHx8MHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+header {
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline 3px black;
+    padding-top: 10px;
+    transform: skewX(-15deg);
+    animation: fadeIn 2s;
+    -webkit-animation: fadein 2s; 
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-moz-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-ms-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes fadein {
+    from {opacity: 0; }
+    to   {opacity: 1; }
+}
+
+nav {
+    border: 2px solid black;
+    border-width: 2px 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 50%;
+    text-align: center;
+    animation: fadeIn 4s;
+    -webkit-animation: fadein 4s; 
+    -moz-animation: fadein 4s;
+    -ms-animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-moz-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-ms-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes fadein {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: goldenrod;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+main{
+    animation: fadeIn 6s;
+    -webkit-animation: fadein 6s; 
+    -moz-animation: fadein 6s;
+    -ms-animation: fadein 6s;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-moz-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-ms-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes fadein {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+
+.mainContainer {
+    text-align: center;
+    color: lightgoldenrodyellow
+}
+
+.website-info {
+    padding-bottom: 15px;
+}
+
+.searchContainer {
+    display: block;
+}
+
+.dropdown {
+    margin-bottom: 15px;
+}
+
+i {
+    padding-right: 2px;
+}
+
+#searchBox {
+    display: inline-block;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.compareContainer {
+    padding-bottom: 10px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.map {
+    height: 600px;
+}
+
+.scrollbar {
+    max-height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.button {
+    width: 250px;
+  }
+  .dropdown-item {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+  }
+  a.dropdown-item {
+    font-size: 20px;
+    padding-left: 36px;
+  }
+
+#hover-btn:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#past-search-buttons {
+    display: block;
+    border: 2px;
+}
+
+#past-search-buttons button{
+    color: red;
+    background-color: black;
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 15px;
+}
