@@ -88,6 +88,7 @@ var createTitleEl = (data, apiFrom) => {
   results.appendChild(repoEl);
 };
 
+// google map api
 var googleMap = function (lngLat) {
   var apiURL = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lngLat[1]},${lngLat[0]}&location_type=APPROXIMATE&key=AIzaSyCG0vKsx0zUzUjb9o7A86MdauceuRZYk1w`;
 
