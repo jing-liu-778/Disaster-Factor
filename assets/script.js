@@ -55,7 +55,7 @@ var mapMarkers = function (locations) {
     );
   }
 };
-
+// search category
 var searchHandler = function (event) {
   event.preventDefault();
 
