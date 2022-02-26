@@ -160,6 +160,7 @@ var saveSearch = function () {
   localStorage.setItem("categories", JSON.stringify(categories));
 };
 
+// show past search data
 var pastSearch = function (category) {
   var pastCategories = JSON.parse(localStorage.getItem("categories"));
   //clear search history
