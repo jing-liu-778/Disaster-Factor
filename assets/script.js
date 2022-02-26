@@ -131,7 +131,7 @@ var displayLocation = function () {
     }
   }
 
-  // create event count& display event count
+  // create event count and display event count
   counts.innerHTML = "";
   var totalEl = document.createElement("div");
   totalEl.classList = "list-item flex-row justify-space-between align-center";
