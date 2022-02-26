@@ -126,7 +126,7 @@ var displayLocation = function () {
       //show address category is Sea and Lake Ice
     } else if (title == category && title == "Sea and Lake Ice") {
       eventCount++;
-      // create events list
+      // create event list
       createTitleEl(data, "eonet");
     }
   }
