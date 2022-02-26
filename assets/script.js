@@ -177,6 +177,7 @@ var pastSearch = function (category) {
   }
 };
 
+// past search handler
 var pastSearchHandler = function (event) {
   event.preventDefault();
   var category2 = event.target.getAttribute("data-categories");
