@@ -189,7 +189,7 @@ var pastSearchHandler = function (event) {
   }
 };
 
-//Fetching data from EONET
+//Fetching data from EONET api
 var getLocation = async function () {
   var apiURL = "https://eonet.gsfc.nasa.gov/api/v2.1/events?days=365";
   await fetch(apiURL).then(function (response) {
