@@ -145,7 +145,7 @@ var displayLocation = function () {
     countEl.textContent =
       "There are " + eventCount + " " + category + " " + "reported!";
   }
-
+  // add countEl to totalEl
   totalEl.appendChild(countEl);
   counts.appendChild(totalEl);
 };
