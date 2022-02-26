@@ -221,6 +221,7 @@ function init() {
   }
   pastSearch();
 }
+// reload
 window.onload = function () {
   init();
 };
