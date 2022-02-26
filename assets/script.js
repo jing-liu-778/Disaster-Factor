@@ -57,6 +57,7 @@ var mapMarkers = function (locations) {
 };
 // search category
 var searchHandler = function (event) {
+  // prevent default event
   event.preventDefault();
 
   var category = event.target.getAttribute("data-category");
