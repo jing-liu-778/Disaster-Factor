@@ -72,6 +72,7 @@ var searchHandler = function (event) {
   pastSearch(category);
 };
 
+// create title
 var createTitleEl = (data, apiFrom) => {
   var titleEl = document.createElement("span");
   titleEl.textContent =
