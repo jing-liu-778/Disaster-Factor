@@ -99,7 +99,7 @@ var googleMap = function (lngLat) {
   });
 };
 
-// display location
+// display location category
 var displayLocation = function () {
   results.innerHTML = "";
   var eventCount = 0;
