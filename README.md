@@ -1,7 +1,10 @@
 # Disaster-Factor
 
+![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
-Project Description - This website utilizes The Earth Observatory Natural Event Tracker (EONET) in conjunction with the GOOGLE Maps API to provide continually updated natural event data plotted to a map. This application will show natural event occurences and hold the search data in localStorage to be pulled upon request. Users can select from several different categories to see if the area they want to know about has experienced any of that type of natural occurrence in the past 365 days.
+## Description
+
+This website utilizes The Earth Observatory Natural Event Tracker (EONET) in conjunction with the GOOGLE Maps API to provide continually updated natural event data plotted to a map. This application will show natural event occurences and hold the search data in localStorage to be pulled upon request. Users can select from several different categories to see if the area they want to know about has experienced any of that type of natural occurrence in the past 365 days.
 
 ## User Story
 
@@ -37,4 +40,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Mock up
 
-![EONET GIF](./assets/EONET.gif)
+![EONET homepage](./assets/homepage.png)
+![EONET map](./assets/map.png)
+![EONET homepage](./assets/recent-event.png)
+
+## Questions
+
+If you have any questions about this projects, please contact me directly at jingliu788@gmail.com. You can view more of my projects at https://github.com/jing-liu-778.
