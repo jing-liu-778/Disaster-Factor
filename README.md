@@ -23,7 +23,7 @@ WHEN I click on the pin, the event nomenclature is presented
 
 [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
 
-HTML, CSS, Bulma, Java Script, Jquery?, MomentJS, NASA EONET API, Google Maps API, JPEGs, GIFs
+HTML, CSS, Bulma, Java Script, MomentJS, NASA EONET API, Google Maps API, JPEGs, GIFs
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
