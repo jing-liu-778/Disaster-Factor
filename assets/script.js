@@ -32,7 +32,7 @@ var mapMarkers = function (locations) {
       map: map,
     });
 
-    // And infowindow on map
+    // And info window on map
     const contentString = (locationName) => `
       <div id="content">
         <div id="siteNotice"> </div>
