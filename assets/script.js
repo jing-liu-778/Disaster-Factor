@@ -113,7 +113,7 @@ var displayLocation = function () {
 
   mapMarkers(coordinates);
 
-  // Display location on list
+  // Display location on the list
   for (i = 0; i < data.events.length; i++) {
     var title = data.events[i].categories[0].title;
 
